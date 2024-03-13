@@ -26,15 +26,15 @@ class NeumorphismMusicPlayer extends StatelessWidget {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          SizedBox(height: 20),
+         const SizedBox(height: 20),
           NeumorphicAlbumArt(),
-          SizedBox(height: 20),
-          Text(
+         const SizedBox(height: 20),
+        const  Text(
             'Song Title',
             style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
           ),
-          SizedBox(height: 10),
-          Text(
+       const   SizedBox(height: 10),
+       const   Text(
             'Artist Name',
             style: TextStyle(fontSize: 16),
           ),
