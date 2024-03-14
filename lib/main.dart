@@ -21,7 +21,7 @@ class NeumorphismMusicPlayer extends StatelessWidget {
       appBar: AppBar(
         title: Text('Neumorphism Music Player'),
         backgroundColor: Color(0xFFF0F0F0),
-        elevation: 0,
+        elevation: 0,centerTitle:  true,
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
